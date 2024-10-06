@@ -8,6 +8,12 @@ using namespace std;
 
 void printBoard();
 
+int ask();
+
+bool checkWin();
+
+bool checkDraw();
+
 void printBoard(char screen[], int size){
     cout << endl;
     for (int i = 0; i < 5; i++){
